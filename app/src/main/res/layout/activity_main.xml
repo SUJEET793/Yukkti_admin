@@ -32,7 +32,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/add_Data"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="5dp"
@@ -41,10 +41,10 @@
                     android:gravity="center"
                     android:text="Add Data"
                     android:textColor="#fff"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/add_Categories"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="5dp"
@@ -60,7 +60,7 @@
             <LinearLayout
                 android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
-                android:layout_height="172dp"
+                android:layout_height="150dp"
                 android:orientation="horizontal"
                 android:weightSum="2"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -68,28 +68,29 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/delete_Data"
                     android:layout_width="0dp"
-                    android:layout_height="150dp"
+                    android:layout_height="match_parent"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="#F44336"
                     android:gravity="center"
                     android:text="Delete Data"
                     android:textColor="#fff"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/delete_Categories"
                     android:layout_width="0dp"
-                    android:layout_height="150dp"
+                    android:layout_height="match_parent"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="#9C27B0"
                     android:gravity="center"
                     android:text="Delete Categories"
                     android:textColor="#fff"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:maxLines="3"/>
 
             </LinearLayout>
 
@@ -106,9 +107,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
-                    android:background="#8BC34A"
+                    android:backgroundTint="#8BC34A"
                     android:text="View All Products"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
             </FrameLayout>
 
             <FrameLayout
@@ -120,12 +121,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout">
                 <Button
-                    android:id="@+id/view_all_categories"
+                    android:id="@+id/UpdateData"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#4CAF50"
+                    android:backgroundTint="#4CAF50"
                     android:text="Update Data"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
             </FrameLayout>
             <FrameLayout
                 android:layout_width="match_parent"
@@ -138,9 +139,9 @@
                     android:id="@+id/todaysOrder"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#009688"
+                    android:backgroundTint="#009688"
                     android:text="Today's Orders"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
             </FrameLayout>
         </LinearLayout>
     </ScrollView>
